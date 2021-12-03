@@ -1,0 +1,17 @@
+ cd github        
+git init                      
+touch new1.txt
+touch new2.txt
+git status
+git add new1.txt
+git add new2.txt
+git status
+git config -- sathiya."sathiyapriya@gmail.com"
+git config --global user."sathiya"
+git commit -m "New file created"
+git commit
+git push -u 
+git pull 
+git pull --no-commit 
+git pull --rebase 
+git pull --verbose
